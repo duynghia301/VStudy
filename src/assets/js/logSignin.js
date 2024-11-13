@@ -5,11 +5,9 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
     var password = document.getElementById('password').value;
 
     // Kiểm tra email và mật khẩu
-    if (email === 'a@gmail.com' && password === '123') {
+    if (email === 'nghia@gmail.com' && password === '123') {
         alert('Login successful');
-        setTimeout(function(){
-            window.location.href = '../pages/home.html'; // Chuyển hướng đến trang home
-        },1000);
+        window.location.href = '../pages/home.html'; // Chuyển hướng đến trang home
     } else {
         alert('Invalid email or password');
     }
@@ -22,14 +20,13 @@ document.getElementById('signupForm').addEventListener('submit', function(event)
     var email = document.getElementById('email').value;
     var password = document.getElementById('password').value;
 
-    // Kiểm tra nếu email và password không trống
     if (email && password) {
-        alert('Account created successfully!');  // Thông báo đăng ký thành công
+        alert('Account created successfully!');
         setTimeout(function() {
-            window.location.href = '../pages/home.html'; // Chuyển hướng đến trang đăng nhập sau 2 giây
-        }, 2000);  // Thời gian delay trước khi chuyển hướng
+            window.location.href = '../pages/home.html';
+        }, 2000);  
     } else {
-        alert('Please fill in both fields.');  // Thông báo khi các trường chưa được điền đầy đủ
+        alert('Please fill in both fields.');  
     }
 });
 

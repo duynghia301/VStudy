@@ -169,7 +169,6 @@ header .image-text .header-text{
     width: 100%;
     outline: none;
     border: none;
-    align-items: center;
     border-radius: 6px;
     transition: var(--tran-05);
     background: var(--primary-color-light);

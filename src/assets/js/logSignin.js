@@ -32,3 +32,5 @@ document.getElementById('signupForm').addEventListener('submit', function(event)
         alert('Please fill in both fields.');  // Thông báo khi các trường chưa được điền đầy đủ
     }
 });
+
+
